@@ -1,2 +1,2 @@
 # ControlForEOS
-And interface for Control, to control and ETC EOS desk via OSC
+An interface for Control, to control an ETC EOS desk via OSC
