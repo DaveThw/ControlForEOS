@@ -95,41 +95,41 @@ constants = [
 ];
 
 oscManager.delegate = {
-	processOSC : function(oscAddress, typetags, args) {
-		switch(oscAddress) {
+  processOSC : function(oscAddress, typetags, args) {
+    switch(oscAddress) {
 /*
-case "/nextPage":
-				control.changePage('next');
-				break;
-			case "/previousPage":
-				control.changePage('previous');
-				break;
-			case "/changeToPage":
-				control.changePage(args[0]);
-				break;
+      case "/nextPage":
+        control.changePage('next');
+        break;
+      case "/previousPage":
+        control.changePage('previous');
+        break;
+      case "/changeToPage":
+        control.changePage(args[0]);
+        break;
 */
-			case "/eos/out/cmd":
-				cmdText.changeValue(args[0]);
-				break;
-			case "/eos/out/user":
-				userText.changeValue(args[0]);
-				break;
+      case "/eos/out/cmd":
+        cmdText.changeValue(args[0]);
+        break;
+      case "/eos/out/user":
+        userText.changeValue(args[0]);
+        break;
 /*
-			case "/eos/out/active/chan":
-				activeChanText.changeValue(args[0]);
-				break;
-			case "/eos/out/active/cue/text":
-				activeCueText.changeValue(args[0]);
-				break;
-			case "/eos/out/pending/cue/text":
-				pendingCueText.changeValue(args[0]);
-				break;
+      case "/eos/out/active/chan":
+        activeChanText.changeValue(args[0]);
+        break;
+      case "/eos/out/active/cue/text":
+        activeCueText.changeValue(args[0]);
+        break;
+      case "/eos/out/pending/cue/text":
+        pendingCueText.changeValue(args[0]);
+        break;
 /* **** */
-default:
-				oscManager.processOSC(oscAddress, typetags, args);
-				break;
-		}
-	}
+      default:
+        oscManager.processOSC(oscAddress, typetags, args);
+        break;
+    }
+  }
 }
 
 pages = [
@@ -149,7 +149,7 @@ pages = [
     "bounds": [0,.1,.2,.1]
   },
   {
-    "name":"userBox",
+    "name":"userText",
     "type":"Label",
     "value":"<User>",
     "bounds": [0.2,.105,.8,.09]
@@ -163,7 +163,7 @@ pages = [
     "bounds": [0,.1,.2,.1]
   },
   {
-    "name":"cmdBox",
+    "name":"cmdText",
     "type":"Label",
     "value":"<cmd>",
     "bounds": [0.2,.105,.8,.09]
