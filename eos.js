@@ -2,7 +2,7 @@ loadedInterfaceName = "EOS Remote Control";
 
 interfaceOrientation = "portrait";
 
-infoText = "My attempt to (re-)create the ETC a-RFR using Control, to control an Ion over OSC"
+infoText = "My attempt to (re-)create the ETC a-RFR using Control, to control an Ion over OSC";
 
 /******* Constants appear on all pages *******/
 
