@@ -144,13 +144,13 @@ pages = [
     "size": "40",
     "bounds": [0,0,1,.1],
   },
-/*
   {
     "name":"userLabel",
     "type":"Label",
     "value":"User:",
     "bounds": [0,.1,.2,.1],
   },
+/*
   {
     "name":"userText",
     "type":"Label",
