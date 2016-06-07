@@ -94,6 +94,7 @@ constants = [
   },
 ];
 
+/*
 oscManager.delegate = {
   processOSC : function(oscAddress, typetags, args) {
     switch(oscAddress) {
@@ -107,7 +108,7 @@ oscManager.delegate = {
       case "/changeToPage":
         control.changePage(args[0]);
         break;
-*/
+*
       case "/eos/out/cmd":
         cmdText.changeValue(args[0]);
         break;
@@ -124,13 +125,14 @@ oscManager.delegate = {
       case "/eos/out/pending/cue/text":
         pendingCueText.changeValue(args[0]);
         break;
-/* **** */
+/* **** *
       default:
         oscManager.processOSC(oscAddress, typetags, args);
         break;
     }
   }
 }
+*/
 
 pages = [
 /********** PAGE 1 *************/
@@ -140,19 +142,19 @@ pages = [
     "type":"Label",
     "value":"PAGE 1",
     "size": "40",
-    "bounds": [0,0,1,.1]
+    "bounds": [0,0,1,.1],
   },
   {
     "name":"userLabel",
     "type":"Label",
     "value":"User:",
-    "bounds": [0,.1,.2,.1]
+    "bounds": [0,.1,.2,.1],
   },
   {
     "name":"userText",
     "type":"Label",
     "value":"<User>",
-    "bounds": [0.2,.105,.8,.09]
+    "bounds": [0.2,.105,.8,.09],
     "color": "#333333",
     "stroke": "#aaaaaa",
   },
@@ -160,13 +162,13 @@ pages = [
     "name":"cmdLabel",
     "type":"Label",
     "value":"Cmd:",
-    "bounds": [0,.1,.2,.1]
+    "bounds": [0,.1,.2,.1],
   },
   {
     "name":"cmdText",
     "type":"Label",
     "value":"<cmd>",
-    "bounds": [0.2,.105,.8,.09]
+    "bounds": [0.2,.105,.8,.09],
     "color": "#333333",
     "stroke": "#aaaaaa",
   },
@@ -178,8 +180,8 @@ pages = [
     "name":"page2Label",
     "type":"Label",
     "value":"PAGE 2",
-    "size": "40",   
-    "bounds": [0,0,1,.5]             
+    "size": "40",
+    "bounds": [0,0,1,.5],
   }
 ],
 
@@ -189,8 +191,8 @@ pages = [
     "name":"page3Label",
     "type":"Label",
     "value":"PAGE 3",
-    "size": "40",   
-    "bounds": [0,0,1,.5]             
+    "size": "40",
+    "bounds": [0,0,1,.5],
   }
 ],
 
@@ -204,7 +206,7 @@ pages = [
     "width": 1,
     "height": 1,
     "value": "",
-    "backgroundColor":"rgba(0,0,0,1)",
+    "backgroundColor": "rgba(0,0,0,1)",
   },
   {
     "name": "infoText",
@@ -241,7 +243,7 @@ pages = [
     "height": .09,
     "color": "#fff",
     "value": "back",
-	  "oninit":"backButtonLabel.label.style.zIndex = 11001",
+    "oninit": "backButtonLabel.label.style.zIndex = 11001",
   },
 ],
 
