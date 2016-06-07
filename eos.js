@@ -10,29 +10,29 @@ constants = [
   {
     "name": "page1Btn",
     "type": "Button",
-    "bounds": [0,.9,.2,.1], 
+  /*  "bounds": [0,.9,.2,.1], */
     "x": 0, "y": 0.9,
     "width": 0.2, "height": 0.1,
     "label": "1",
-    "mode": "contact",    
+    "mode": "contact",
     "ontouchstart": "control.changePage(0);",
-    "stroke": "#aaa",    
+    "stroke": "#aaa",
   },
   {
     "name": "page2Btn",
     "type": "Button",
-    "bounds": [.2,.9,.2,.1], 
+  /*  "bounds": [.2,.9,.2,.1], */
     "x": 0.2, "y": 0.9,
     "width": 0.2, "height": 0.1,
     "label": "2",
-    "mode": "contact",    
+    "mode": "contact",
     "ontouchstart": "control.changePage(1);",
-    "stroke": "#aaa",    
+    "stroke": "#aaa",
   },
   {
     "name": "page3Btn",
     "type": "Button",
-    "bounds": [.4,.9,.2,.1], 
+  /*  "bounds": [.4,.9,.2,.1], */
     "x": 0.4, "y": 0.9,
     "width": 0.2, "height": 0.1,
     "label": "3",
@@ -109,7 +109,9 @@ pages = [
     "type":"Label",
     "value":"PAGE 1",
     "size": "40",
-    "bounds": [0,0,1,.5]
+  /*  "bounds": [0,0,1,.5] */
+    "x": 0, "y": 0,
+    "width": 1, "height": 0.5,
   }
 ],
 
