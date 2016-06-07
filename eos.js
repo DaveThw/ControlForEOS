@@ -10,7 +10,7 @@ constants = [
   {
     "name": "page1Btn",
     "type": "Button",
-    "bounds": [0,.85,.2,.1],
+    "bounds": [0,.75,.2,.1],
     "label": "1",
     "mode": "contact",
     "ontouchstart": "control.changePage(0);",
@@ -19,29 +19,26 @@ constants = [
   {
     "name": "page2Btn",
     "type": "Button",
-    "bounds": [.2,.85,.2,.1],
+    "bounds": [.2,.75,.2,.1],
     "label": "2",
     "mode": "contact",
     "ontouchstart": "control.changePage(1);",
     "stroke": "#aaa",
   },
-/*
 {
     "name": "page3Btn",
     "type": "Button",
-    "bounds": [.4,.9,.2,.1],
+    "bounds": [.4,.75,.2,.1],
     "label": "3",
     "mode": "contact",
     "ontouchstart": "control.changePage(2);",
     "stroke": "#aaa",
   },
-*/
 //****** You can also use previous / next buttons *******
-/*
   {
     "name": "nextBtn",
     "type": "Button",
-    "bounds": [0,.9,.2,.1], 
+    "bounds": [.6,.75,.2,.1], 
     "label": "<-",
     "mode": "contact",    
     "ontouchstart": "control.changePage('previous');",
@@ -50,7 +47,7 @@ constants = [
   {
     "name": "page2Btn",
     "type": "Button",
-    "bounds": [.2,.9,.2,.1], 
+    "bounds": [.8,.75,.2,.1], 
     "label": "->",
     "mode": "contact",    
     "ontouchstart": "control.changePage('next');",
