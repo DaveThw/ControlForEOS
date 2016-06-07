@@ -131,6 +131,16 @@ pages = [
 /******** PAGE 4 - Info *********/
 [
   {
+    "name": "bg",
+    "type": "Label",
+    "x": .0,
+    "y": .0,
+    "width": 1,
+    "height": 1,
+    "value": "",
+    "backgroundColor":"rgba(0,0,0,1)",
+  },
+  {
     "name": "infoText",
     "type": "Label",
     "x": .1,
@@ -140,6 +150,7 @@ pages = [
     "value": infoText,
     "verticalCenter": false,
     "align": "left",
+    "oninit": "infoText.fillDiv.style.zIndex = 10000",
   },
   {
     "name": "backButton",
@@ -153,9 +164,10 @@ pages = [
     "stroke": "#aaaaaa",
     "protocol": "local",
     "ontouchstart": "control.changePage(0);",
+    "oninit": "backButton.fillDiv.style.zIndex = 10000",
   },
   {
-    "name": "infoButtonLabel",
+    "name": "backButtonLabel",
     "type": "Label",
     "x": .8,
     "y": .9,
@@ -163,6 +175,7 @@ pages = [
     "height": .09,
     "color": "#fff",
     "value": "back",
+	  "oninit":"backButtonLabel.label.style.zIndex = 11001",
   },
 ],
 
