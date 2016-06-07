@@ -19,7 +19,7 @@ pages = [
   {
     "name": "menuButton",
     "type": "Button",
-    "bounds": [.61, .86, .18, .08],
+    "bounds": [.81, .86, .18, .08],
     "mode": "toggle",
     "stroke": "#aaa",
     "isLocal": true,
