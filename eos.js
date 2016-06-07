@@ -144,6 +144,7 @@ pages = [
     "size": "40",
     "bounds": [0,0,1,.1],
   },
+/*
   {
     "name":"userLabel",
     "type":"Label",
@@ -172,6 +173,7 @@ pages = [
     "color": "#333333",
     "stroke": "#aaaaaa",
   },
+*/
 ],
 
 /********** PAGE 2 *************/
