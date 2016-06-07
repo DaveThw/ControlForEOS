@@ -16,6 +16,7 @@ pages = [
     "stroke": "#aaa",
     "label": "refresh",
   },
+  
   {
     "name": "menuButton",
     "type": "Button",
