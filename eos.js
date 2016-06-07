@@ -10,9 +10,7 @@ constants = [
   {
     "name": "page1Btn",
     "type": "Button",
-  /*  "bounds": [0,.9,.2,.1], */
-    "x": 0, "y": 0.9,
-    "width": 0.2, "height": 0.1,
+    "bounds": [0,.85,.2,.1],
     "label": "1",
     "mode": "contact",
     "ontouchstart": "control.changePage(0);",
@@ -21,25 +19,23 @@ constants = [
   {
     "name": "page2Btn",
     "type": "Button",
-  /*  "bounds": [.2,.9,.2,.1], */
-    "x": 0.2, "y": 0.9,
-    "width": 0.2, "height": 0.1,
+    "bounds": [.2,.85,.2,.1],
     "label": "2",
     "mode": "contact",
     "ontouchstart": "control.changePage(1);",
     "stroke": "#aaa",
   },
-  {
+/*
+{
     "name": "page3Btn",
     "type": "Button",
-  /*  "bounds": [.4,.9,.2,.1], */
-    "x": 0.4, "y": 0.9,
-    "width": 0.2, "height": 0.1,
+    "bounds": [.4,.9,.2,.1],
     "label": "3",
     "mode": "contact",
     "ontouchstart": "control.changePage(2);",
     "stroke": "#aaa",
   },
+*/
 //****** You can also use previous / next buttons *******
 /*
   {
@@ -64,7 +60,7 @@ constants = [
   {
     "name": "refresh",
     "type": "Button",
-    "bounds": [.6, .9, .2, .1],
+    "bounds": [.6, .85, .2, .1],
     "startingValue": 0,
     "isLocal": true,
     "mode": "contact",
@@ -75,7 +71,7 @@ constants = [
   {
     "name": "tabButton",
     "type": "Button",
-    "bounds": [.8, .9, .2, .1],
+    "bounds": [.8, .85, .2, .1],
     "mode": "toggle",
     "stroke": "#aaa",
     "isLocal": true,
@@ -85,17 +81,17 @@ constants = [
   {
     "name": "infoButton",
     "type": "Button",
-    "bounds": [.4, .9, .2, .1],
+    "bounds": [.4, .85, .2, .1],
     "mode": "contact",
     "color": "#333333",
     "stroke": "#aaaaaa",
     "isLocal": true,
-    "ontouchstart": "control.changePage(1);",
+    "ontouchstart": "control.changePage(3);",
   },
   {
     "name": "infoButtonLabel",
     "type": "Label",
-    "bounds": [.4, .9, .2, .1],
+    "bounds": [.4, .85, .2, .1],
     "color": "#fff",
     "value": "info",
   },
@@ -109,9 +105,7 @@ pages = [
     "type":"Label",
     "value":"PAGE 1",
     "size": "40",
-  /*  "bounds": [0,0,1,.5] */
-    "x": 0, "y": 0,
-    "width": 1, "height": 0.5,
+    "bounds": [0,0,1,.5]
   }
 ],
 
