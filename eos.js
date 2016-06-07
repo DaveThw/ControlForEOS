@@ -6,6 +6,36 @@ pages = [
 /********** PAGE 0 *************/
 [
   {
+    "name":"userLabel",
+    "type":"Label",
+    "value":"User:",
+    "bounds": [0,.1,.2,.1],
+  },
+  {
+    "name":"userText",
+    "type":"Label",
+    "value":"<User>",
+    "bounds": [0.2,.105,.8,.09],
+    "color": "#333333",
+    "stroke": "#aaaaaa",
+  },
+  {
+    "name":"cmdLabel",
+    "type":"Label",
+    "value":"Cmd:",
+    "bounds": [0,.1,.2,.1],
+  },
+  {
+    "name":"cmdText",
+    "type":"Label",
+    "value":"<cmd>",
+    "bounds": [0.2,.105,.8,.09],
+    "color": "#333333",
+    "stroke": "#aaaaaa",
+  },
+
+/* *** Bottom buttons *** */
+  {
     "name": "refresh",
     "type": "Button",
     "bounds": [.61, .86, .18, .08],
@@ -16,7 +46,6 @@ pages = [
     "stroke": "#aaa",
     "label": "refresh",
   },
-  
   {
     "name": "menuButton",
     "type": "Button",
